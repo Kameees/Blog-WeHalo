@@ -1,0 +1,19 @@
+<!-- 蒙版效果 -->
+<view class="mask" hidden="{{isHidden}}" catchtap="closeMask">
+    <view class="masks" catchtap="prevent" animation="{{ani}}">
+        <view class="box">
+            <image class="leftImage" mode="widthFix" src="https://i.loli.net/2020/05/02/Xuwylkj6m8IDose.jpg"></image>
+            <view class="right">
+                <view class="title">
+                    <text class="name">Kame</text>
+                </view>
+                <view class="info">
+                    <view class="field">Email</view>
+                    <view class="value">Kame233@outlook.com</view>
+                    <view class="field">Github</view>
+                    <view class="value">https://github.com/Kameees</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
